@@ -15,7 +15,7 @@ import {
   Sparkles, 
   Download, 
   Eye, 
-  Slides, 
+  Presentation, 
   Palette, 
   Users, 
   Building, 
@@ -340,7 +340,7 @@ function App() {
               <span>Create</span>
             </TabsTrigger>
             <TabsTrigger value="library" className="flex items-center space-x-2">
-              <Slides className="w-4 h-4" />
+              <Presentation className="w-4 h-4" />
               <span>Library</span>
             </TabsTrigger>
           </TabsList>
@@ -729,7 +729,7 @@ function App() {
                   </div>
                 ) : (
                   <div className="text-center py-12 text-gray-500">
-                    <Slides className="w-16 h-16 mx-auto mb-4 text-gray-300" />
+                    <Presentation className="w-16 h-16 mx-auto mb-4 text-gray-300" />
                     <p className="text-lg font-medium">No presentations yet</p>
                     <p className="text-sm">Create your first presentation to get started</p>
                   </div>
